@@ -59,7 +59,7 @@ with open(potfile,'w') as f:
     for i in range(0,len(pot)):
         f.write(("   ").join(pot[i])+"\n")
 #pos部分
-if 'S' in poslines[7]:
+if 'S' in poslines[7][0]:
     index=9
     tf=1
 else:
