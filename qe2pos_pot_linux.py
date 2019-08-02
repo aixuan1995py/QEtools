@@ -85,6 +85,7 @@ with open("pos",'w') as f:
     f.write(("   ").join(cellx)+"\n")
     f.write(("   ").join(celly)+"\n")
     f.write(("   ").join(cellz)+"\n")
+    f.write("\n")
     f.write(b+"\n")
     for i in range(0,len(atoms)):
         f.write(("   ").join(atoms[i])+"\n")
