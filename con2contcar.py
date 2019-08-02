@@ -12,7 +12,7 @@ with open ("cont",'r',encoding='UTF-8') as f:
 cellx=poslines[1]
 celly=poslines[2]
 cellz=poslines[3]
-atoms=poslines[5:]
+atoms=poslines[6:]
 element=[]
 slect=0
 for i in range(0,len(atoms)):
